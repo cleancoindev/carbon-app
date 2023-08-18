@@ -39,7 +39,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     build: {
-      outDir: 'build',
+      outDir: 'dist',
       sourcemap: !!(
         env.SENTRY_ORG &&
         env.SENTRY_PROJECT &&
