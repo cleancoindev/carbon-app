@@ -29,7 +29,7 @@ export default defineConfig(({ mode }) => {
         },
 
         // Use the following option if you're on an SDK version lower than 7.47.0:
-        // include: "./dist",
+         include: "./dist",
 
         // Optionally uncomment the line below to override automatic release name detection
         // release: env.RELEASE,
