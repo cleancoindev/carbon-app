@@ -4,6 +4,13 @@ import viteTsconfigPaths from 'vite-tsconfig-paths';
 import svgrPlugin from 'vite-plugin-svgr';
 import { sentryVitePlugin } from '@sentry/vite-plugin';
 
+module.exports = {
+  root: 'src',
+  build: {
+    outDir: '../dist'
+  }
+}
+
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   // Load env file based on `mode` in the current working directory.
